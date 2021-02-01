@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Small Programmer Multi Language</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a style="line-height: 60px;" class="navbar-brand" href="#">
+            <img src="websites_icon.png" width="60px" height="60px" class="d-inline-block align-top">
+            <span id="tite">The Small Programmer</span>
+            </a>
+        </div>
+    </nav>
+    <span style="display: flex;">
+        <div class="card" style="width: 18rem;margin: 5px;">
+            <center>
+                <img src="https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg" height="200px" class="card-img-top">
+                <div class="card-body">
+                    <h5 id="english_title" class="card-title">English</h5>
+                    <p id="english_desc" class="card-text">This is English language in the any country you need to learn English for speching and can solving your problems.</p>
+                    <button id="english" onclick="en();" type="button" class="btn btn-outline-primary">Select This Language</button>
+                </div>
+            </center>
+        </div>
+        <div class="card" style="width: 18rem;margin: 5px;">
+            <center>
+                <img src="https://cdn.britannica.com/200x500/79/5779-050-46C999AF/Flag-Saudi-Arabia.jpg" height="200px" class="card-img-top">
+                <div class="card-body">
+                    <h5 id="arabic_title" class="card-title">Arabic</h5>
+                    <p id="arabic_desc" class="card-text">This is Arabic language this language used in the last time and the quran kerim writed with the Arabic language.</p>
+                    <button id="arabic" onclick="ar();" type="button" class="btn btn-outline-success">Select This Language</button>
+                </div>
+            </center>
+        </div>
+        <div class="card" style="width: 18rem;margin: 5px;">
+            <center>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg" height="200px" class="card-img-top">
+                <div class="card-body">
+                    <h5 id="turkish_title" class="card-title">Turkish</h5>
+                    <p id="turkish_desc" class="card-text">This is Turkish Language in the all Turkish countries are peoples muslim and reading quran kerim in the Turkish and Arabic language.</p>
+                    <button id="turkish" onclick="tr();" type="button" class="btn btn-outline-danger">Select This Language</button>
+                </div>
+            </center>
+        </div>
+    </span>
+    <div class="card text-center">
+        <div id="about" class="card-header">
+          About
+        </div>
+        <div class="card-body">
+          <p id="about_desc" class="card-text">We are programmers if you have anything you can contact us with we</p>
+          <a href="#" id="cs" class="btn btn-primary">Contact US</a>
+        </div>
+    </div>
+    <script src="multi_language.js"></script>
+</body>
+</html>
